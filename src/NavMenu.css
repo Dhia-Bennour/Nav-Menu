@@ -1,0 +1,54 @@
+.App {
+    text-align: center;
+  }
+  .NavMenu {
+    display: flex;
+    
+  }
+  
+  .main_menu {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    padding-top: 10px;
+
+    width: 300px;
+  }
+ 
+  
+  .main_menu a {
+    text-decoration: none;
+    color: darkslategrey;
+  }
+  
+  .main_menu a:hover {
+    background-color: blue;
+  }
+  .submenu_link {
+    background-color: aquamarine;
+   
+  }
+  li {
+    list-style: none;
+    width: 240px;
+  }
+  
+  ul li a {
+    text-decoration: none;
+    color: darkslategray;
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    text-align: center;
+    justify-content: center;
+    
+  }
+  
+  
+  li ul li {
+    display: none;
+  }
+  li:hover ul li {
+    display: block;
+    padding: 15px;
+
+  }
+  
